@@ -1,19 +1,29 @@
-## UpdateMyManga
-#Goal - Create a system that will allow me to get reminded when it's time to change the source of a particular manga torrent in tachiyomi
+# UpdateMyManga
 
-# Problem - As of July 24 2021, Tachiyomi does not have a system that allows the user to be reminded of whenever another source has the most updated chapters. There were times that I would be missing out on essential manga chapter to only realize that it's the fault of the source and not myself, the goal of this app/service is to change that.
+## Goal 
+---
+Create a system that will allow me to get reminded when it's time to change the source of a particular manga torrent in tachiyomi
+---
+## Problem 
+As of July 24 2021, Tachiyomi does not have a system that allows the user to be reminded of whenever another source has the most updated chapters. There were times that I would be missing out on essential manga chapter to only realize that it's the fault of the source and not myself, the goal of this app/service is to change that.
 
-# Milestone 1 - Get a general understanding of the basics that this project will entail (what do I need, api tokens, how to make an app??, SQL vs Firebase maybe???, Web scrapers instead of apis?) Design and UML / Sequence diagrams created.
+# Expected Milestones
 
-# Milestone 2 - Basic calling of the api in a postman setting on one particular well known manga source (MangaDex)
+### Milestone 1 
+- Get a general understanding of the basics that this project will entail (what do I need, api tokens, how to make an app??, SQL vs Firebase maybe???, Web scrapers instead of apis?) Design and UML / Sequence diagrams created.
 
-#Milestone 3 -  Backend of api functionality finished. Move api backend to an application, which will send manga name notifications to users phone.
+### Milestone 2 
+- Basic calling of the api in a postman setting on one particular well known manga source (MangaDex)
 
-#Milestone 4 - Application is completed. The following HAS to be included in order for full functionality:
-1) A history page (main page) that contains all past and current manga sources.  ie) [Manga name]: [Old source] -> [New source]. Each entry must have the date gorup to which it was updated. (Updated... Today, Yesterday, Last Week, Last Month, Older)
-2) Notification system (previously mentioned) that must be clickable to open the application and show some sort of splash screen detailing more information
-3) Ability to clear entire history and restart.
-4) TBA - more will come as nesesary 
+### Milestone 3 
+- Backend of api functionality finished. Move api backend to an application, which will send manga name notifications to users phone.
+
+### Milestone 4 
+- Application is completed. The following HAS to be included in order for full functionality:
+1. A history page (main page) that contains all past and current manga sources.  ie) [Manga name]: [Old source] -> [New source]. Each entry must have the date gorup to which it was updated. (Updated... Today, Yesterday, Last Week, Last Month, Older)
+2. Notification system (previously mentioned) that must be clickable to open the application and show some sort of splash screen detailing more information
+3. Ability to clear entire history and restart.
+4. TBA - more will come as nesesary 
 
 Milestone 5 - Setup a SQL database (if needed) that will store information regarding the manga sources. (This will assist in retaining memory for this project)
 
